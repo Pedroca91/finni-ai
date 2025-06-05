@@ -13,6 +13,8 @@
         }
     ],
     "env": {
-        "PYTHONPATH": "backend"
+        "PYTHONPATH": ".",
+        "DATABASE_URL": "sqlite:///./finni.db",
+        "CORS_ORIGINS": "*"
     }
 } 
